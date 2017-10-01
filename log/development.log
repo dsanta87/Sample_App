@@ -542,3 +542,9 @@ Started GET "/static_pages/contact" for ::1 at 2017-10-01 13:34:17 +0200
 Processing by StaticPagesController#contact as HTML
   Rendered static_pages/contact.html.haml within layouts/application (5.9ms)
 Completed 200 OK in 203ms (Views: 195.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-01 20:36:39 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 229ms (Views: 221.3ms | ActiveRecord: 0.0ms)
